@@ -4,11 +4,9 @@
  
  Implementação de métodos de Aprendizado de Máquina como Redes Neurais Convolucionais (CNN) e algumas técnicas de Pré-Processamento para o reconhecimento de dígitos manuscritos, utilizando a biblioteca TensorFlow (Trabalho Prático 4 da disciplina de Inteligência Artificial - DCOMP - UFSJ).
  
-- [Relatório](https://www.overleaf.com/5613769368rygrvsqdgrcm) (Overleaf)
- 
 # Requisitos
 
-- [Python](https://python.org) 3.6 ou superior 
+- [Python](https://python.org) 3.7 ou superior 
 - Biblioteca [TensorFlow](https://www.tensorflow.org/?hl=pt-br)
  
          pip install tensorflow
