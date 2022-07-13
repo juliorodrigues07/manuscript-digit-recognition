@@ -72,7 +72,7 @@
 
 \section{Introdução}
 
-Neste documento, encontram-se os detalhes considerados mais relevantes no desenvolvimento de dois tipos de redes neurais (DNN e CNN) como modelos de aprendizado de máquina para o reconhecimento de dígitos manuscritos. A implementação foi realizada utilizando linguagem Python com auxílio dos recursos do \emph{framework} \textbf{TensorFlow} e os \emph{scripts} presentes na especifcação do trabalho prático, e está disponível publicamente no seguinte endereço \url{https://colab.research.google.com/drive/1KOZpSspm7ZuQyaWUz8oqQ1Kow9_XL-uy?usp=sharing} no formato \emph{notebook}, e também no repositório \url{https://github.com/juliorodrigues07/manuscript_digit_recognition}.
+Neste documento, encontram-se os detalhes considerados mais relevantes no desenvolvimento de dois tipos de redes neurais (DNN e CNN) como modelos de aprendizado de máquina para o reconhecimento de dígitos manuscritos. A implementação foi realizada utilizando linguagem Python com auxílio dos recursos do \emph{framework} \textbf{TensorFlow} e os \emph{scripts} presentes na especifcação do trabalho prático, e está disponível publicamente no seguinte endereço \url{https://colab.research.google.com/github/juliorodrigues07/manuscript_digit_recognition/blob/master/cnn_digit.ipynb} no formato \emph{notebook}, e também no repositório \url{https://github.com/juliorodrigues07/manuscript_digit_recognition}.
 
 Antes de prosseguir, vale a pena citar que a DNN foi implementada apenas para fins de comparação e resolução das questões presentes no trabalho prático. Portanto, os testes realizados foram executados majoritariamente com a CNN, variando os hiperparâmetros de forma extensa, com o objetivo de encontrar uma composição que apresentasse a métrica de acurácia mais alta possível.
     
@@ -140,7 +140,7 @@ Além disso, foi implementado também um trecho de código com o intuito de test
 
 \section{Análise de Resultados}
 
-Com a combinação de hiperparâmetros citada anteriormente, conseguimos construir uma rede neural convolucional cuja acurácia aferida atingiu \textbf{99,14\%}, com uma taxa de perda de \textbf{2,45\%} (97,87\% e 7,34\% para a DNN, respectivamente). Os gráficos que correspondem às curvas de aprendizado dos modelos são apresentados nas Figuras \ref{fig:exanpleFig1} e \ref{fig:exanpleFig2}, relacionando o número de épocas com a acurácia obtida.
+Com a combinação de hiperparâmetros citada anteriormente, conseguimos construir uma rede neural convolucional cuja acurácia aferida atingiu \textbf{99,15\%}, com uma taxa de perda de \textbf{2,66\%} (97,97\% e 7,75\% para a DNN, respectivamente). Os gráficos que correspondem às curvas de aprendizado dos modelos são apresentados nas Figuras \ref{fig:exanpleFig1} e \ref{fig:exanpleFig2}, relacionando o número de épocas com a acurácia obtida.
 
 \vspace*{-0.5cm}
 \begin{figure}[H]
@@ -202,4 +202,3 @@ Por fim, neste trabalho conseguimos explorar de forma bastante superficial, os c
 \end{itemize}
 
 \end{document}
-
